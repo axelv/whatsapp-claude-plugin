@@ -16,7 +16,7 @@ The MCP server connects to WhatsApp as a linked device (like WhatsApp Web) and p
 **1. Install the plugin.**
 
 ```
-/plugin marketplace add Rich627/whatsapp-claude-plugin
+/plugin marketplace add axelv/whatsapp-claude-plugin
 /plugin install whatsapp-channel@whatsapp-claude-plugin
 /exit
 ```

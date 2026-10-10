@@ -13,7 +13,7 @@ The plugin connects to WhatsApp as a **linked device** (the same protocol as Wha
 ## Installation
 
 ```sh
-claude plugin marketplace add Rich627/whatsapp-claude-plugin
+claude plugin marketplace add axelv/whatsapp-claude-plugin
 claude plugin install whatsapp-channel@whatsapp-claude-plugin
 claude --dangerously-load-development-channels plugin:whatsapp-channel@whatsapp-claude-plugin
 ```
