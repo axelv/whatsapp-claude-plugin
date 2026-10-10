@@ -57,6 +57,10 @@ if (!isStaticMode()) {
   // latest.
   const CHANGELOG: { version: string; notes: string[] }[] = [
     {
+      version: "0.26.4",
+      notes: ["README star-history chart now tracks the axelv fork."],
+    },
+    {
       version: "0.26.3",
       notes: [
         "catch_up marks your own lines [owner], so a contact can't pose as you.",
