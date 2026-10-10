@@ -10,7 +10,9 @@
  *  a display string. Undefined in, undefined out, so a caller can keep its
  *  own "no name" fallback. */
 export function safeName(s: string | undefined | null): string | undefined {
-  return s?.replace(/[<>\[\]\r\n;]/g, "_");
+  // `"` too: these values land inside quoted envelope attributes, and a name
+  // like `Bob" user_id="…` would otherwise add an attribute of its own.
+  return s?.replace(/[<>\[\]\r\n;"]/g, "_");
 }
 
 // pushName is profile text the SENDER sets, and it lands in the `user=`

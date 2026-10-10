@@ -4,7 +4,7 @@ description: Set up the WhatsApp channel — configure the phone number, review 
 user-invocable: true
 allowed-tools:
   - Bash(ls ~/.whatsapp-channel)
-  - Bash(mkdir -p ~/.whatsapp-channel)
+  - Bash(mkdir -m 700 -p ~/.whatsapp-channel)
   - Bash(chmod 600 ~/.whatsapp-channel/.env)
   - Bash(rm -rf ~/.whatsapp-channel/.baileys_auth)
   - Read(~/.whatsapp-channel/**)
@@ -90,7 +90,7 @@ offer.
 
 1. Treat `$ARGUMENTS` as the phone number (trim whitespace, strip leading `+`).
    WhatsApp phone numbers are digits only, no spaces or dashes.
-2. `mkdir -p ~/.whatsapp-channel`
+2. `mkdir -m 700 -p ~/.whatsapp-channel`
 3. Read existing `.env` if present; update/add the `WHATSAPP_PHONE_NUMBER=` line,
    preserve other keys. Write back, no quotes around the value.
 4. `chmod 600 ~/.whatsapp-channel/.env` — the file may contain credentials.

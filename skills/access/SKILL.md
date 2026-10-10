@@ -4,7 +4,7 @@ description: WhatsApp channel access — approve pairings, edit allowlists, set 
 user-invocable: true
 allowed-tools:
   - Bash(ls ~/.whatsapp-channel)
-  - Bash(mkdir -p ~/.whatsapp-channel)
+  - Bash(mkdir -m 700 -p ~/.whatsapp-channel)
   - Bash(mkdir -p ~/.whatsapp-channel/approved)
   - Bash(bun "${CLAUDE_PLUGIN_ROOT}/scripts/access.ts" *)
   - Read(~/.whatsapp-channel/**)

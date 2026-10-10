@@ -57,6 +57,15 @@ if (!isStaticMode()) {
   // latest.
   const CHANGELOG: { version: string; notes: string[] }[] = [
     {
+      version: "0.26.3",
+      notes: [
+        "catch_up marks your own lines [owner], so a contact can't pose as you.",
+        "A message's line breaks can no longer fake extra entries in catch_up.",
+        "reply refuses more credential files, e.g. Claude, gh, kube and docker logins.",
+        "~/.whatsapp-channel is now forced to owner-only permissions at startup.",
+      ],
+    },
+    {
       version: "0.26.2",
       notes: [
         "Baileys upgraded to rc12 to fix forged messages and app-state sync attacks.",
