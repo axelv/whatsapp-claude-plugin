@@ -10,7 +10,7 @@ so security reports are taken seriously.
 
 Instead, use GitHub's private reporting:
 
-1. Go to the [**Security** tab](https://github.com/Rich627/whatsapp-claude-plugin/security)
+1. Go to the [**Security** tab](https://github.com/axelv/whatsapp-claude-plugin/security)
    of this repository.
 2. Click **Report a vulnerability** to open a private advisory.
 

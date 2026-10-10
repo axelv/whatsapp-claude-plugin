@@ -2,12 +2,12 @@
   "name": "whatsapp-channel",
   "displayName": "WhatsApp Channel for Claude Code",
   "description": "WhatsApp channel for Claude Code — linked-device messaging bridge with built-in access control. Manage pairing, allowlists, and policy via /whatsapp-channel:access.",
-  "version": "0.26.2",
+  "version": "0.26.3",
   "author": {
-    "name": "Rich627"
+    "name": "axelv"
   },
-  "homepage": "https://github.com/Rich627/whatsapp-claude-plugin",
-  "repository": "https://github.com/Rich627/whatsapp-claude-plugin",
+  "homepage": "https://github.com/axelv/whatsapp-claude-plugin",
+  "repository": "https://github.com/axelv/whatsapp-claude-plugin",
   "license": "Apache-2.0",
   "icon": "./assets/icon.svg",
   "keywords": ["whatsapp", "messaging", "channel", "mcp"],
